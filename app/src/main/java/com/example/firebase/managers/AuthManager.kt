@@ -1,15 +1,17 @@
 package com.example.firebase.managers
 
+import android.util.Log
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 
 class AuthManager {
 
     companion object {
-        val firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
-        val firebaseUser: FirebaseUser? = firebaseAuth.currentUser
+        private val firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
+        private val firebaseUser: FirebaseUser? = firebaseAuth.currentUser
 
         fun isSignedIn(): Boolean {
+            Log.d("@@@", "isSignedIn: ${firebaseAuth.currentUser}")
             return firebaseUser != null
         }
 

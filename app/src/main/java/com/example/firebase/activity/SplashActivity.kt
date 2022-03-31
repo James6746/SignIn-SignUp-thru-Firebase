@@ -1,6 +1,6 @@
 package com.example.firebase.activity
 
-import android.content.Intent
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.WindowManager
@@ -8,6 +8,7 @@ import com.example.firebase.R
 import com.example.firebase.managers.AuthManager
 
 
+@SuppressLint("CustomSplashScreen")
 class SplashActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,10 +18,6 @@ class SplashActivity : BaseActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
         setContentView(R.layout.activity_splash)
-        initViews()
-    }
-
-    private fun initViews() {
         countDownTimer()
     }
 

@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/Firebase/app/src/main/res/drawable/app_main_gradient.xml" value="0.1815" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/Firebase/app/src/main/res/drawable/loading_frame.xml" value="0.196" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/Firebase/app/src/main/res/drawable/shape_circle_orange_light.xml" value="0.196" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/Firebase/app/src/main/res/drawable/view_rounded_corner.xml" value="0.1815" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/Firebase/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/Firebase/app/src/main/res/layout/activity_signin.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/Firebase/app/src/main/res/layout/activity_signup.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/Firebase/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/Firebase/app/src/main/res/layout/custom_progress_layout.xml" value="0.18802083333333333" />
       </map>
     </option>
   </component>
