@@ -25,6 +25,7 @@ class AuthManager {
             }
         }
 
+
         fun signUp(email: String, password: String, handler: AuthHandler) {
             firebaseAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener { task ->
