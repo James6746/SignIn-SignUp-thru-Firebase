@@ -25,4 +25,14 @@
         <item name="android:backgroundDimEnabled">false</item>
         <item name="android:background">@android:color/transparent</item>
     </style>
+    
+    <style name="Theme.Firebase.1_2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <!--        <item name="colorPrimaryVariant">#c13584</item>-->
+        <item name="colorPrimaryVariant">#00000000</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
 </resources>
